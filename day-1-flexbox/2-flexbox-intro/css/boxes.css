@@ -5,12 +5,22 @@ ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	border: 1px dotted red;
+	border: 5px dotted red;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: space-between;
+	/* height: 400px; */
 }
 li {
-	border: 1px solid #999;
+	border: 5px solid #999;
 	margin: 0.5em;
 	padding: 0.5em;
+}
+.flex2 {
+	border: 5px dashed blue;
+	order: 2;
+	flex: 2 1 25%; /*always use this property instead of width on flex items*/
 }
 
 
